@@ -58,28 +58,28 @@ const Form = () => {
     const changeName = (name) => {
         setName(name);
         obj.name = name;
-        filledForms++;
+        name !== '' && filledForms++;
         nextClick(currentForm);
     }
 
     const changeSurname = (surname) => {
         setSurname(surname);
         obj.surname = surname;
-        filledForms++;
+        email !== '' && filledForms++;
         nextClick(currentForm);
     }
 
     const changeAge = (age) => {
         setAge(age);
         obj.age = age;
-        filledForms++;
+        age !== 1 && filledForms++;
         nextClick(currentForm);
     }
 
     const changeEmail = (email) => {
         setEmail(email);
         obj.email = email;
-        filledForms++;
+        email !== '' && filledForms++;
         nextClick(currentForm);
     }
 
