@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+}
+
+.content {
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.contentMainPage {
+    height: 100vh;
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    height: 54px;
+    background-color: #2B3844;
+    color: #fff;
+}
+
+thead tr {
+    height: 100%;
+}
+
+
+th {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+tr {
+    margin: 0;
+}
+
+.emptyRow {
+    height: 24px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+tbody tr {
+    height: 54px;
+}
+
+.tableButtons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 13px;
+    padding-right: 10px;
+}
+
+
+.tableBtn {
+    border: 0;
+    color: #5382E7;
+    stroke: #5382E7;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #EEF3FD;
+    border-radius: 3px;
+}
+
+.tableBtn:hover {
+    background-color: #d9e4fa;
+}
+
+.sellBtn {
+    width: 53px;
+    height: 28px;
+}
+
+.editBtn {
+    width: 46px;
+    height: 28px;
+}
+
+.deleteSvg:hover{
+    cursor: pointer;
+}
+
+.deleteSvg:hover path{
+    stroke: #2B3844;
+}
+
+.itemImg {
+    height: 56px;
+}
+
+/*<---CHARTS--->*/
+.charts {
+    display: grid;
+    grid-template-areas:
+            'pie bar'
+            'line bar';
+    grid-gap: 24px;
+}
+
+.pieChart {
+    grid-area: pie;
+    width: 455px;
+    height: 325px;
+}
+
+.barChart {
+    grid-area: bar;
+    width: 735px;
+    height: 569px;
+}
+.lineChart {
+    grid-area: line;
+    width: 455px;
+    height: 220px;
+}
+
+/*<!---CHARTS--->*/
+
+

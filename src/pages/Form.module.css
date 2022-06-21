@@ -1,0 +1,55 @@
+.header {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.handSection {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-row-gap: 15px;
+}
+
+.handler {
+    width: 150px;
+    height: 40px;
+    outline: #aaafb4 1px solid;
+    border-radius: 3px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    border: 0;
+    border-radius: 3px;
+    background-color: #5382E7;
+    padding: 20px 40px;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.input {
+    padding: 5px 10px;
+    width: 250px;
+    height: 25px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #2f63e1;
+}
+
+.button:disabled {
+    background-color: #b2c4ee;
+}
+
+.formTitle {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
