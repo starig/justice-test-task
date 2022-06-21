@@ -9,8 +9,8 @@ import Form from "./pages/Form";
 function App() {
     return (
         <Routes>
-            <Route path={'/'} element={<Products/>}/>
-            <Route path={'/main-page'} element={<MainPage/>}/>
+            <Route path={'/products'} element={<Products/>}/>
+            <Route path={'/'} element={<MainPage/>}/>
             <Route path={'/form-page'} element={<Form />}/>
             <Route path={'*'} element={<NotFound/>}/>
         </Routes>

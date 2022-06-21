@@ -15,7 +15,7 @@ const Sidebar = () => {
                     <div className="sidebarCrm">CRM</div>
                 </div>
                 <nav className="navigation">
-                    <NavLink to="/main-page" className="navlink">
+                    <NavLink to="/" className="navlink">
                         <svg className="svg navlinkIcon" width="20" height="22" viewBox="0 0 20 22" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -26,7 +26,7 @@ const Sidebar = () => {
                         </svg>
                         Main page
                     </NavLink>
-                    <NavLink to="/" className="navlink navlinkActive">
+                    <NavLink to="/products" className="navlink navlinkActive">
                         <svg className="svg navlinkIcon" width="18" height="22" viewBox="0 0 18 22" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path
