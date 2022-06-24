@@ -11,4 +11,4 @@
 * **Axios**
 * **React Charts**
 * React Hook
-* CSS-Modules / SCSS
+* CSS-Modules
