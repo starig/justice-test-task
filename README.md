@@ -6,7 +6,7 @@
 * **HTML**
 * **CSS**
 * **ReactJS 18**
-* **Redux Toolkit**
+* **Redux**
 * **React Router v6**
 * **Axios**
 * **React Charts**
