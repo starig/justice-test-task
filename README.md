@@ -9,6 +9,6 @@
 * **Redux Toolkit**
 * **React Router v6**
 * **Axios**
-* **React charts**
+* **React Charts**
 * React Hook
 * CSS-Modules / SCSS
